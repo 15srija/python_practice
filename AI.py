@@ -1,4 +1,4 @@
-#############
+sample file
 import random
 #### sample practice for python##############
 while(True):
