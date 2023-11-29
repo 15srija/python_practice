@@ -1,4 +1,5 @@
 import random
+#### sample practice for python##############
 while(True):
     user_choice=int(input("Enter your choice 0 for rock, 1 for paper, 2 for scissors\n"))
     computer_choice=random.randint(0,2)
