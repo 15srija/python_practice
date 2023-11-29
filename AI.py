@@ -1,4 +1,4 @@
-#############
+merge conflicts
 import random
 #### sample practice for python##############
 while(True):
