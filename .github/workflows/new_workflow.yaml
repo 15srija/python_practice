@@ -1,7 +1,7 @@
 name: New Workflow Practice
 
 on:
-  workflow-dispatched:
+  workflow_dispatch:
 
 jobs:
   first_job:
