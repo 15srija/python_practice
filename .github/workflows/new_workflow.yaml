@@ -1,0 +1,21 @@
+name: New Workflow Practice
+
+on:
+  workflow-dispatched:
+
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run python code
+        run: python p2.py
+        shell: bash
+
+  second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: runned python code
+        run: echo "Bye!"
+        shell: bash
+
