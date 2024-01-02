@@ -3,9 +3,11 @@ name: New Workflow Practice
 on:
   push:
      branches:
-        -'practice'
-        -'main'
+        - 'practice'
+        - 'main'
   workflow_dispatch:
+     branches:
+         - practice
        
 jobs:
   first_job:
