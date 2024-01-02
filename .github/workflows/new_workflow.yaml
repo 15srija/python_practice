@@ -1,24 +1,24 @@
-# name: New Workflow Practice
+name: New Workflow Practice
 
-# on:
-#   push:
-#      branches:
-#         - 'practice'
-#         - 'main'
-#   workflow_dispatch:
+on:
+  push:
+     branches:
+        - 'practice'
+        - 'main'
+  workflow_dispatch:
 
-# jobs:
-#   first_job:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-#       - name: Run python code
-#         run: python time.py
-#         shell: bash
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run python code
+        run: python time.py
+        shell: bash
 
-#   second_job:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: runned python code
-#         run: echo "Bye!"
-#         shell: bash
+  second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: runned python code
+        run: echo "Bye!"
+        shell: bash
