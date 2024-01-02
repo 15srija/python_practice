@@ -1,6 +1,9 @@
 name: New Workflow Practice
 
 on:
+  push:
+     branches:
+        - practice
   workflow_dispatch:
 
 jobs:
