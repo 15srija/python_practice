@@ -3,9 +3,9 @@ name: New Workflow Practice
 on:
   push:
      branches:
-        - practice
+        - 'practice'
   workflow_dispatch:
-
+  create:
 jobs:
   first_job:
     runs-on: ubuntu-latest
