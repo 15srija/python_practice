@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run python code
-        run: python p2.py
+        run: python time.py
         shell: bash
 
   second_job:
