@@ -1,15 +1,21 @@
 name: New Workflow Practice
 
 on:
-  workflow-dispatched:
-
+  push:
+     branches:
+        - 'practice'
+        - 'main'
+  workflow_dispatch:
+     branches:
+         - practice
+       
 jobs:
   first_job:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Run python code
-        run: python p2.py
+        run: python time.py
         shell: bash
 
   second_job:
